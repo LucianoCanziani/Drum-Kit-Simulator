@@ -67,4 +67,11 @@ kbd {
         margin: 0.5rem;
         padding: 0.2rem 0rem;
     }
+    kbd {
+        font-size: 2rem;
+    }
+    .sound {
+        font-size: 0.7rem;
+        letter-spacing: 0;
+    }
 }
