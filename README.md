@@ -16,4 +16,4 @@ Repository Link: https://github.com/LucianoCanziani/Drum-Kit-Simulator.git
 
 ## Deploy Netlify
 
-Deploy Link: https://626aaabb81db6823f1a6fa43--drumkitsimulator.netlify.app/
+Deploy Link: https://main--drumkitsimulator.netlify.app/
