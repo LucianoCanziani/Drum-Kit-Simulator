@@ -60,12 +60,16 @@ kbd {
 
 @media (max-width: 800px) {
     body {
-        height: 0;
+        height: 0vh;
     }
-    
+
     .keys {
         justify-content: space-evenly;
-        min-height: 0;
+        min-height: 0vh;
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+
     }
 
     .key {
@@ -73,9 +77,11 @@ kbd {
         margin: 0.5rem;
         padding: 0.2rem 0rem;
     }
+
     kbd {
         font-size: 3rem;
     }
+
     .sound {
         font-size: 1rem;
         letter-spacing: 0;
