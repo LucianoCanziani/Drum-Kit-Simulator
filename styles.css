@@ -1,3 +1,9 @@
+* {
+    -webkit-tap-highlight-color: transparent;
+    -moz-tap-highlight-color: transparent;
+    -o-tap-highlight-color: transparent;
+}
+
 body {
     font-size: 10px;
     background: url('./img/background.png') top center;
@@ -30,7 +36,7 @@ body {
     background: rgba(0, 0, 0, 0.4);
     text-shadow: 0 0 .5rem black;
     cursor: pointer;
-    user-select:none;
+    user-select: none;
 }
 
 .playing {
@@ -52,11 +58,12 @@ kbd {
 }
 
 @media (max-width: 800px) {
-    .keys{
+    .keys {
         justify-content: space-evenly;
     }
+
     .key {
         width: 7rem;
         margin: 0.5rem;
     }
-  }
+}
