@@ -5,6 +5,7 @@
 }
 
 body {
+    height: 100vh;
     font-size: 10px;
     background: url('./img/background.png') top center;
     background-size: cover;
@@ -68,10 +69,10 @@ kbd {
         padding: 0.2rem 0rem;
     }
     kbd {
-        font-size: 2rem;
+        font-size: 3rem;
     }
     .sound {
-        font-size: 0.7rem;
+        font-size: 1rem;
         letter-spacing: 0;
     }
 }
