@@ -59,6 +59,10 @@ kbd {
 }
 
 @media (max-width: 800px) {
+    body {
+        height: 0;
+    }
+    
     .keys {
         justify-content: space-evenly;
         min-height: 0;
